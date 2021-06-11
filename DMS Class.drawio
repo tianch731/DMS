@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-11T07:36:53.064Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15" etag="PsTTRjRQHuCGdnsPbDUO" version="14.7.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-06-11T07:47:42.724Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15" etag="Z9kdrQY5p7XD2qnDa-Lx" version="14.7.7" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="领域模型">
     <mxGraphModel dx="946" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -343,11 +343,53 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="8wcacnN0ik2hlF94O3LG" name="Page-2">
+  <diagram id="8wcacnN0ik2hlF94O3LG" name="用例图">
     <mxGraphModel dx="946" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="jv0CMciiGHtryct5G3q1-0" />
         <mxCell id="jv0CMciiGHtryct5G3q1-1" parent="jv0CMciiGHtryct5G3q1-0" />
+        <mxCell id="ugkIM4LZQm5FIUCHGINb-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="jv0CMciiGHtryct5G3q1-1" source="ugkIM4LZQm5FIUCHGINb-0" target="ugkIM4LZQm5FIUCHGINb-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ugkIM4LZQm5FIUCHGINb-5" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="jv0CMciiGHtryct5G3q1-1" source="ugkIM4LZQm5FIUCHGINb-0" target="ugkIM4LZQm5FIUCHGINb-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ugkIM4LZQm5FIUCHGINb-6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="jv0CMciiGHtryct5G3q1-1" source="ugkIM4LZQm5FIUCHGINb-0" target="ugkIM4LZQm5FIUCHGINb-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ugkIM4LZQm5FIUCHGINb-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="jv0CMciiGHtryct5G3q1-1" source="ugkIM4LZQm5FIUCHGINb-0" target="ugkIM4LZQm5FIUCHGINb-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ugkIM4LZQm5FIUCHGINb-10" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="jv0CMciiGHtryct5G3q1-1" source="ugkIM4LZQm5FIUCHGINb-0" target="ugkIM4LZQm5FIUCHGINb-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ugkIM4LZQm5FIUCHGINb-0" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="jv0CMciiGHtryct5G3q1-1">
+          <mxGeometry x="30" y="280" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ugkIM4LZQm5FIUCHGINb-1" value="增加任务" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="jv0CMciiGHtryct5G3q1-1">
+          <mxGeometry x="220" y="70" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ugkIM4LZQm5FIUCHGINb-3" value="修改任务" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="jv0CMciiGHtryct5G3q1-1">
+          <mxGeometry x="220" y="170" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ugkIM4LZQm5FIUCHGINb-4" value="删除任务" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="jv0CMciiGHtryct5G3q1-1">
+          <mxGeometry x="220" y="270" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ugkIM4LZQm5FIUCHGINb-7" value="导出任务" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="jv0CMciiGHtryct5G3q1-1">
+          <mxGeometry x="220" y="360" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ugkIM4LZQm5FIUCHGINb-8" value="导入任务" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="jv0CMciiGHtryct5G3q1-1">
+          <mxGeometry x="220" y="460" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ugkIM4LZQm5FIUCHGINb-11" value="审核任务" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="jv0CMciiGHtryct5G3q1-1">
+          <mxGeometry x="425" y="280" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ugkIM4LZQm5FIUCHGINb-13" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="jv0CMciiGHtryct5G3q1-1" source="ugkIM4LZQm5FIUCHGINb-12" target="ugkIM4LZQm5FIUCHGINb-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ugkIM4LZQm5FIUCHGINb-12" value="管理员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="jv0CMciiGHtryct5G3q1-1">
+          <mxGeometry x="700" y="285" width="30" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

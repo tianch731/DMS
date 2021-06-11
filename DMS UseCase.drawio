@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2021-06-11T06:31:29.120Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15" version="14.7.7" etag="njIwo58UNqbg115eZ2WF" type="github"><diagram id="b2nd4qOSTPnS6qTTrthb">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-11T06:34:02.298Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15" etag="AlnxVeGABf66XXi-AXMg" version="14.7.7" type="github">
+  <diagram id="b2nd4qOSTPnS6qTTrthb" name="Page-1">
+    <mxGraphModel dx="946" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="N-jBnBJXChuNwNHnJyLa-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N-jBnBJXChuNwNHnJyLa-1" target="N-jBnBJXChuNwNHnJyLa-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N-jBnBJXChuNwNHnJyLa-8" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N-jBnBJXChuNwNHnJyLa-1" target="N-jBnBJXChuNwNHnJyLa-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N-jBnBJXChuNwNHnJyLa-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N-jBnBJXChuNwNHnJyLa-1" target="N-jBnBJXChuNwNHnJyLa-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N-jBnBJXChuNwNHnJyLa-10" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N-jBnBJXChuNwNHnJyLa-1" target="N-jBnBJXChuNwNHnJyLa-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N-jBnBJXChuNwNHnJyLa-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="N-jBnBJXChuNwNHnJyLa-1" target="N-jBnBJXChuNwNHnJyLa-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N-jBnBJXChuNwNHnJyLa-1" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="220" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N-jBnBJXChuNwNHnJyLa-2" value="增加任务" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="30" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="N-jBnBJXChuNwNHnJyLa-3" value="修改任务" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="120" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="N-jBnBJXChuNwNHnJyLa-4" value="删除任务" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="210" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="N-jBnBJXChuNwNHnJyLa-5" value="导出任务" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="300" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="N-jBnBJXChuNwNHnJyLa-6" value="导入任务" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="390" width="140" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
